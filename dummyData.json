@@ -1,0 +1,780 @@
+{
+    "lineChartData": {
+        "2022-01-01": { "content": 2000, "social": 1500, "email": 1000 },
+        "2022-02-01": { "content": 1800, "social": 1600, "email": 1100 },
+        "2022-03-01": { "content": 2200, "social": 1700, "email": 1200 },
+        "2022-04-01": { "content": 2500, "social": 1400, "email": 1300 },
+        "2022-05-01": { "content": 2400, "social": 1900, "email": 1400 },
+        "2022-06-01": { "content": 2600, "social": 2200, "email": 1500 },
+        "2022-07-01": { "content": 2800, "social": 2100, "email": 1600 },
+        "2022-08-01": { "content": 2700, "social": 2000, "email": 1700 },
+        "2022-09-01": { "content": 2900, "social": 2300, "email": 1800 },
+        "2022-10-01": { "content": 3000, "social": 2400, "email": 1900 },
+        "2022-11-01": { "content": 3100, "social": 2500, "email": 2000 },
+        "2022-12-01": { "content": 3200, "social": 2600, "email": 2100 },
+        "2023-01-01": { "content": 3100, "social": 2700, "email": 2200 },
+        "2023-02-01": { "content": 3300, "social": 2600, "email": 2300 },
+        "2023-03-01": { "content": 3400, "social": 2700, "email": 2400 },
+        "2023-04-01": { "content": 3500, "social": 2900, "email": 2500 },
+        "2023-05-01": { "content": 3600, "social": 2800, "email": 2600 },
+        "2023-06-01": { "content": 3700, "social": 3000, "email": 2700 },
+        "2023-07-01": { "content": 3800, "social": 3100, "email": 2800 },
+        "2023-08-01": { "content": 3700, "social": 3200, "email": 2900 },
+        "2023-09-01": { "content": 3900, "social": 3300, "email": 3000 },
+        "2023-10-01": { "content": 4100, "social": 3400, "email": 3100 },
+        "2023-11-01": { "content": 4200, "social": 3500, "email": 3200 },
+        "2023-12-01": { "content": 4100, "social": 3600, "email": 3300 },
+        "2024-01-01": { "content": 4300, "social": 3700, "email": 3400 },
+        "2024-02-01": { "content": 4200, "social": 3800, "email": 3500 },
+        "2024-03-01": { "content": 4400, "social": 3900, "email": 3600 },
+        "2024-04-01": { "content": 4500, "social": 4000, "email": 3700 },
+        "2024-05-01": { "content": 4400, "social": 4100, "email": 3800 },
+        "2024-06-01": { "content": 4600, "social": 4200, "email": 3900 },
+        "2024-07-01": { "content": 4700, "social": 4100, "email": 4000 },
+        "2024-08-01": { "content": 4600, "social": 4000, "email": 4100 },
+        "2024-09-01": { "content": 4800, "social": 3900, "email": 4200 },
+        "2024-10-01": { "content": 5000, "social": 3800, "email": 4300 },
+        "2024-11-01": { "content": 4900, "social": 3700, "email": 4400 },
+        "2024-12-01": { "content": 5100, "social": 3600, "email": 4500 }
+    },
+    "barChartData": {
+        "2022-01-01": { "casual": 2000, "formal": 1500, "footwear": 1000 },
+        "2022-02-01": { "casual": 1800, "formal": 1600, "footwear": 1100 },
+        "2022-03-01": { "casual": 2200, "formal": 1700, "footwear": 1200 },
+        "2022-04-01": { "casual": 2500, "formal": 1400, "footwear": 1300 },
+        "2022-05-01": { "casual": 2400, "formal": 1900, "footwear": 1400 },
+        "2022-06-01": { "casual": 2600, "formal": 2200, "footwear": 1500 },
+        "2022-07-01": { "casual": 2800, "formal": 2100, "footwear": 1600 },
+        "2022-08-01": { "casual": 2700, "formal": 2000, "footwear": 1700 },
+        "2022-09-01": { "casual": 2900, "formal": 2300, "footwear": 1800 },
+        "2022-10-01": { "casual": 3000, "formal": 2400, "footwear": 1900 },
+        "2022-11-01": { "casual": 3100, "formal": 2500, "footwear": 2000 },
+        "2022-12-01": { "casual": 3200, "formal": 2600, "footwear": 2100 },
+        "2023-01-01": { "casual": 3100, "formal": 2700, "footwear": 2200 },
+        "2023-02-01": { "casual": 3300, "formal": 2600, "footwear": 2300 },
+        "2023-03-01": { "casual": 3400, "formal": 2700, "footwear": 2400 },
+        "2023-04-01": { "casual": 3500, "formal": 2900, "footwear": 2500 },
+        "2023-05-01": { "casual": 3600, "formal": 2800, "footwear": 2600 },
+        "2023-06-01": { "casual": 3700, "formal": 3000, "footwear": 2700 },
+        "2023-07-01": { "casual": 3800, "formal": 3100, "footwear": 2800 },
+        "2023-08-01": { "casual": 3700, "formal": 3200, "footwear": 2900 },
+        "2023-09-01": { "casual": 3900, "formal": 3300, "footwear": 3000 },
+        "2023-10-01": { "casual": 4100, "formal": 3400, "footwear": 3100 },
+        "2023-11-01": { "casual": 4200, "formal": 3500, "footwear": 3200 },
+        "2023-12-01": { "casual": 4100, "formal": 3600, "footwear": 3300 },
+        "2024-01-01": { "casual": 4300, "formal": 3700, "footwear": 3400 },
+        "2024-02-01": { "casual": 4200, "formal": 3800, "footwear": 3500 },
+        "2024-03-01": { "casual": 4400, "formal": 3900, "footwear": 3600 },
+        "2024-04-01": { "casual": 4500, "formal": 4000, "footwear": 3700 },
+        "2024-05-01": { "casual": 4400, "formal": 4100, "footwear": 3800 },
+        "2024-06-01": { "casual": 4600, "formal": 4200, "footwear": 3900 },
+        "2024-07-01": { "casual": 4700, "formal": 4100, "footwear": 4000 },
+        "2024-08-01": { "casual": 4600, "formal": 4000, "footwear": 4100 },
+        "2024-09-01": { "casual": 4800, "formal": 3900, "footwear": 4200 },
+        "2024-10-01": { "casual": 5000, "formal": 3800, "footwear": 4300 },
+        "2024-11-01": { "casual": 4900, "formal": 3700, "footwear": 4400 },
+        "2024-12-01": { "casual": 5100, "formal": 3600, "footwear": 4500 }
+    },
+    "pieChartData": {
+        "2000": {
+            "revenueGrowth": 12,
+            "marketExpansion": 8,
+            "profitMargin": 5,
+            "productInnovation": 10,
+            "customerAcquisition": 15
+        },
+        "2001": {
+            "revenueGrowth": 14,
+            "marketExpansion": 9,
+            "profitMargin": 6,
+            "productInnovation": 12,
+            "customerAcquisition": 16
+        },
+        "2002": {
+            "revenueGrowth": 13,
+            "marketExpansion": 10,
+            "profitMargin": 7,
+            "productInnovation": 11,
+            "customerAcquisition": 14
+        },
+        "2003": {
+            "revenueGrowth": 15,
+            "marketExpansion": 11,
+            "profitMargin": 8,
+            "productInnovation": 13,
+            "customerAcquisition": 17
+        },
+        "2004": {
+            "revenueGrowth": 16,
+            "marketExpansion": 12,
+            "profitMargin": 9,
+            "productInnovation": 14,
+            "customerAcquisition": 18
+        },
+        "2005": {
+            "revenueGrowth": 18,
+            "marketExpansion": 13,
+            "profitMargin": 10,
+            "productInnovation": 15,
+            "customerAcquisition": 20
+        },
+        "2006": {
+            "revenueGrowth": 20,
+            "marketExpansion": 14,
+            "profitMargin": 11,
+            "productInnovation": 16,
+            "customerAcquisition": 22
+        },
+        "2007": {
+            "revenueGrowth": 22,
+            "marketExpansion": 15,
+            "profitMargin": 12,
+            "productInnovation": 18,
+            "customerAcquisition": 24
+        },
+        "2008": {
+            "revenueGrowth": 24,
+            "marketExpansion": 16,
+            "profitMargin": 13,
+            "productInnovation": 20,
+            "customerAcquisition": 26
+        },
+        "2009": {
+            "revenueGrowth": 23,
+            "marketExpansion": 17,
+            "profitMargin": 14,
+            "productInnovation": 21,
+            "customerAcquisition": 25
+        },
+        "2010": {
+            "revenueGrowth": 25,
+            "marketExpansion": 18,
+            "profitMargin": 15,
+            "productInnovation": 23,
+            "customerAcquisition": 27
+        },
+        "2011": {
+            "revenueGrowth": 26,
+            "marketExpansion": 19,
+            "profitMargin": 16,
+            "productInnovation": 24,
+            "customerAcquisition": 28
+        },
+        "2012": {
+            "revenueGrowth": 28,
+            "marketExpansion": 20,
+            "profitMargin": 17,
+            "productInnovation": 26,
+            "customerAcquisition": 30
+        },
+        "2013": {
+            "revenueGrowth": 30,
+            "marketExpansion": 21,
+            "profitMargin": 18,
+            "productInnovation": 27,
+            "customerAcquisition": 32
+        },
+        "2014": {
+            "revenueGrowth": 32,
+            "marketExpansion": 22,
+            "profitMargin": 19,
+            "productInnovation": 29,
+            "customerAcquisition": 34
+        },
+        "2015": {
+            "revenueGrowth": 34,
+            "marketExpansion": 23,
+            "profitMargin": 20,
+            "productInnovation": 30,
+            "customerAcquisition": 36
+        },
+        "2016": {
+            "revenueGrowth": 33,
+            "marketExpansion": 24,
+            "profitMargin": 21,
+            "productInnovation": 31,
+            "customerAcquisition": 35
+        },
+        "2017": {
+            "revenueGrowth": 35,
+            "marketExpansion": 25,
+            "profitMargin": 22,
+            "productInnovation": 33,
+            "customerAcquisition": 37
+        },
+        "2018": {
+            "revenueGrowth": 36,
+            "marketExpansion": 26,
+            "profitMargin": 23,
+            "productInnovation": 34,
+            "customerAcquisition": 38
+        },
+        "2019": {
+            "revenueGrowth": 38,
+            "marketExpansion": 27,
+            "profitMargin": 24,
+            "productInnovation": 35,
+            "customerAcquisition": 40
+        },
+        "2020": {
+            "revenueGrowth": 40,
+            "marketExpansion": 28,
+            "profitMargin": 25,
+            "productInnovation": 37,
+            "customerAcquisition": 42
+        },
+        "2021": {
+            "revenueGrowth": 42,
+            "marketExpansion": 29,
+            "profitMargin": 26,
+            "productInnovation": 38,
+            "customerAcquisition": 44
+        },
+        "2022": {
+            "revenueGrowth": 20,
+            "marketExpansion": 15,
+            "profitMargin": 10,
+            "productInnovation": 25,
+            "customerAcquisition": 30
+        },
+        "2023": {
+            "revenueGrowth": 18,
+            "marketExpansion": 12,
+            "profitMargin": 15,
+            "productInnovation": 28,
+            "customerAcquisition": 27
+        },
+        "2024": {
+            "revenueGrowth": 22,
+            "marketExpansion": 17,
+            "profitMargin": 12,
+            "productInnovation": 30,
+            "customerAcquisition": 19
+        }
+    },
+    "tableData" : [
+        {
+          "id": 1,
+          "product_name": "T-Shirt",
+          "category": "Men's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2023-01-10",
+          "quantity_sold": 50,
+          "unit_price": 15.99
+        },
+        {
+          "id": 2,
+          "product_name": "Jeans",
+          "category": "Men's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2023-02-15",
+          "quantity_sold": 30,
+          "unit_price": 29.99
+        },
+        {
+          "id": 3,
+          "product_name": "Dress",
+          "category": "Women's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2023-03-20",
+          "quantity_sold": 25,
+          "unit_price": 49.99
+        },
+        {
+          "id": 4,
+          "product_name": "Sneakers",
+          "category": "Men's Clothing",
+          "sub_category": "Footwear",
+          "date": "2023-04-05",
+          "quantity_sold": 40,
+          "unit_price": 59.99
+        },
+        {
+          "id": 5,
+          "product_name": "Skirt",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2023-05-12",
+          "quantity_sold": 20,
+          "unit_price": 39.99
+        },
+        {
+          "id": 6,
+          "product_name": "Polo Shirt",
+          "category": "Men's Clothing",
+          "sub_category": "Sport's Wear",
+          "date": "2023-06-18",
+          "quantity_sold": 35,
+          "unit_price": 22.99
+        },
+        {
+          "id": 7,
+          "product_name": "Blouse",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2023-07-25",
+          "quantity_sold": 15,
+          "unit_price": 34.99
+        },
+        {
+          "id": 8,
+          "product_name": "Jacket",
+          "category": "Men's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2023-08-30",
+          "quantity_sold": 28,
+          "unit_price": 79.99
+        },
+        {
+          "id": 9,
+          "product_name": "Dress Shoes",
+          "category": "Men's Clothing",
+          "sub_category": "Footwear",
+          "date": "2023-09-08",
+          "quantity_sold": 22,
+          "unit_price": 89.99
+        },
+        {
+          "id": 10,
+          "product_name": "Trousers",
+          "category": "Men's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2023-10-14",
+          "quantity_sold": 18,
+          "unit_price": 49.99
+        },
+        {
+          "id": 11,
+          "product_name": "Hoodie",
+          "category": "Men's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2023-11-20",
+          "quantity_sold": 33,
+          "unit_price": 39.99
+        },
+        {
+          "id": 12,
+          "product_name": "Summer Dress",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2023-12-25",
+          "quantity_sold": 27,
+          "unit_price": 54.99
+        },
+        {
+          "id": 13,
+          "product_name": "Polo Shirt",
+          "category": "Men's Clothing",
+          "sub_category": "Sport's Wear",
+          "date": "2024-01-02",
+          "quantity_sold": 36,
+          "unit_price": 22.99
+        },
+        {
+          "id": 14,
+          "product_name": "Winter Coat",
+          "category": "Men's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2024-02-08",
+          "quantity_sold": 24,
+          "unit_price": 99.99
+        },
+        {
+          "id": 15,
+          "product_name": "Cardigan",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2024-03-15",
+          "quantity_sold": 19,
+          "unit_price": 44.99
+        },
+        {
+          "id": 16,
+          "product_name": "Sweatpants",
+          "category": "Men's Clothing",
+          "sub_category": "Sport's Wear",
+          "date": "2024-04-20",
+          "quantity_sold": 29,
+          "unit_price": 29.99
+        },
+        {
+          "id": 17,
+          "product_name": "Formal Skirt",
+          "category": "Women's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2024-05-25",
+          "quantity_sold": 23,
+          "unit_price": 59.99
+        },
+        {
+          "id": 18,
+          "product_name": "Sandals",
+          "category": "Women's Clothing",
+          "sub_category": "Footwear",
+          "date": "2024-06-30",
+          "quantity_sold": 31,
+          "unit_price": 39.99
+        },
+        {
+          "id": 19,
+          "product_name": "Suit",
+          "category": "Men's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2024-07-05",
+          "quantity_sold": 16,
+          "unit_price": 149.99
+        },
+        {
+          "id": 20,
+          "product_name": "Tank Top",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2024-08-10",
+          "quantity_sold": 21,
+          "unit_price": 19.99
+        },
+        {
+          "id": 21,
+          "product_name": "Swimsuit",
+          "category": "Women's Clothing",
+          "sub_category": "Sport's Wear",
+          "date": "2024-09-15",
+          "quantity_sold": 14,
+          "unit_price": 29.99
+        },
+        {
+          "id": 22,
+          "product_name": "Sweater",
+          "category": "Men's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2024-10-20",
+          "quantity_sold": 26,
+          "unit_price": 49.99
+        },
+        {
+          "id": 23,
+          "product_name": "Formal Dress",
+          "category": "Women's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2024-11-25",
+          "quantity_sold": 17,
+          "unit_price": 79.99
+        },
+        {
+          "id": 24,
+          "product_name": "Running Shoes",
+          "category": "Men's Clothing",
+          "sub_category": "Footwear",
+          "date": "2024-12-30",
+          "quantity_sold": 32,
+          "unit_price": 69.99
+        },
+        {
+          "id": 25,
+          "product_name": "Jeans",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2025-01-05",
+          "quantity_sold": 28,
+          "unit_price": 39.99
+        },
+        {
+          "id": 26,
+          "product_name": "Tuxedo",
+          "category": "Men's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2025-02-10",
+          "quantity_sold": 18,
+          "unit_price": 199.99
+        },
+        {
+          "id": 27,
+          "product_name": "Hiking Boots",
+          "category": "Men's Clothing",
+          "sub_category": "Footwear",
+          "date": "2025-03-15",
+          "quantity_sold": 25,
+          "unit_price": 79.99
+        },
+        {
+          "id": 28,
+          "product_name": "Skirt",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2025-04-20",
+          "quantity_sold": 22,
+          "unit_price": 49.99
+        },
+        {
+          "id": 29,
+          "product_name": "Polo Shirt",
+          "category": "Men's Clothing",
+          "sub_category": "Sport's Wear",
+          "date": "2025-05-25",
+          "quantity_sold": 30,
+          "unit_price": 29.99
+        },
+        {
+          "id": 30,
+          "product_name": "Blouse",
+          "category": "Women's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2025-06-30",
+          "quantity_sold": 19,
+          "unit_price": 59.99
+        },
+        {
+          "id": 31,
+          "product_name": "Chinos",
+          "category": "Men's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2025-07-05",
+          "quantity_sold": 27,
+          "unit_price": 34.99
+        },
+        {
+          "id": 32,
+          "product_name": "Summer Dress",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2025-08-10",
+          "quantity_sold": 24,
+          "unit_price": 44.99
+        },
+        {
+          "id": 33,
+          "product_name": "Joggers",
+          "category": "Men's Clothing",
+          "sub_category": "Sport's Wear",
+          "date": "2025-09-15",
+          "quantity_sold": 21,
+          "unit_price": 29.99
+        },
+        {
+          "id": 34,
+          "product_name": "Formal Skirt",
+          "category": "Women's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2025-10-20",
+          "quantity_sold": 16,
+          "unit_price": 69.99
+        },
+        {
+          "id": 35,
+          "product_name": "T-Shirt",
+          "category": "Men's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2025-11-25",
+          "quantity_sold": 33,
+          "unit_price": 19.99
+        },
+        {
+          "id": 36,
+          "product_name": "Winter Coat",
+          "category": "Men's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2025-12-30",
+          "quantity_sold": 20,
+          "unit_price": 89.99
+        },
+        {
+          "id": 37,
+          "product_name": "Cardigan",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2026-01-05",
+          "quantity_sold": 26,
+          "unit_price": 39.99
+        },
+        {
+          "id": 38,
+          "product_name": "Sweatpants",
+          "category": "Men's Clothing",
+          "sub_category": "Sport's Wear",
+          "date": "2026-02-10",
+          "quantity_sold": 18,
+          "unit_price": 29.99
+        },
+        {
+          "id": 39,
+          "product_name": "Sandals",
+          "category": "Women's Clothing",
+          "sub_category": "Footwear",
+          "date": "2026-03-15",
+          "quantity_sold": 15,
+          "unit_price": 24.99
+        },
+        {
+          "id": 40,
+          "product_name": "Suit",
+          "category": "Men's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2026-04-20",
+          "quantity_sold": 29,
+          "unit_price": 149.99
+        },
+        {
+          "id": 41,
+          "product_name": "Tank Top",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2026-05-25",
+          "quantity_sold": 23,
+          "unit_price": 19.99
+        },
+        {
+          "id": 42,
+          "product_name": "Sneakers",
+          "category": "Men's Clothing",
+          "sub_category": "Sport's Wear",
+          "date": "2026-06-30",
+          "quantity_sold": 17,
+          "unit_price": 54.99
+        },
+        {
+          "id": 43,
+          "product_name": "Hoodie",
+          "category": "Men's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2026-07-05",
+          "quantity_sold": 28,
+          "unit_price": 39.99
+        },
+        {
+          "id": 44,
+          "product_name": "Formal Dress",
+          "category": "Women's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2026-08-10",
+          "quantity_sold": 24,
+          "unit_price": 79.99
+        },
+        {
+          "id": 45,
+          "product_name": "Dress Shoes",
+          "category": "Men's Clothing",
+          "sub_category": "Footwear",
+          "date": "2026-09-15",
+          "quantity_sold": 21,
+          "unit_price": 99.99
+        },
+        {
+          "id": 46,
+          "product_name": "Jacket",
+          "category": "Men's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2026-10-20",
+          "quantity_sold": 30,
+          "unit_price": 79.99
+        },
+        {
+          "id": 47,
+          "product_name": "Blouse",
+          "category": "Women's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2026-11-25",
+          "quantity_sold": 18,
+          "unit_price": 59.99
+        },
+        {
+          "id": 48,
+          "product_name": "Polo Shirt",
+          "category": "Men's Clothing",
+          "sub_category": "Sport's Wear",
+          "date": "2026-12-30",
+          "quantity_sold": 27,
+          "unit_price": 29.99
+        },
+        {
+          "id": 49,
+          "product_name": "Skirt",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2027-01-05",
+          "quantity_sold": 22,
+          "unit_price": 49.99
+        },
+        {
+          "id": 50,
+          "product_name": "Trousers",
+          "category": "Men's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2027-02-10",
+          "quantity_sold": 16,
+          "unit_price": 59.99
+        },
+        {
+          "id": 51,
+          "product_name": "Sweater",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2027-03-15",
+          "quantity_sold": 25,
+          "unit_price": 39.99
+        },
+        {
+          "id": 52,
+          "product_name": "Formal Skirt",
+          "category": "Women's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2027-04-20",
+          "quantity_sold": 20,
+          "unit_price": 69.99
+        },
+        {
+          "id": 53,
+          "product_name": "Running Shoes",
+          "category": "Men's Clothing",
+          "sub_category": "Footwear",
+          "date": "2027-05-25",
+          "quantity_sold": 19,
+          "unit_price": 69.99
+        },
+        {
+          "id": 54,
+          "product_name": "Hoodie",
+          "category": "Men's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2027-06-30",
+          "quantity_sold": 18,
+          "unit_price": 34.99
+        },
+        {
+          "id": 55,
+          "product_name": "Summer Dress",
+          "category": "Women's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2027-07-05",
+          "quantity_sold": 23,
+          "unit_price": 44.99
+        },
+        {
+          "id": 56,
+          "product_name": "Polo Shirt",
+          "category": "Men's Clothing",
+          "sub_category": "Sport's Wear",
+          "date": "2027-08-10",
+          "quantity_sold": 24,
+          "unit_price": 29.99
+        },
+        {
+          "id": 57,
+          "product_name": "Dress",
+          "category": "Women's Clothing",
+          "sub_category": "Formal Wear",
+          "date": "2027-09-15",
+          "quantity_sold": 17,
+          "unit_price": 69.99
+        },
+        {
+          "id": 58,
+          "product_name": "Jeans",
+          "category": "Men's Clothing",
+          "sub_category": "Casual Wear",
+          "date": "2027-10-20",
+          "quantity_sold": 29,
+          "unit_price": 39.99
+        }
+    ]  
+}
+  
